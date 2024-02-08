@@ -1,0 +1,46 @@
+.header {
+  background-color: #333;
+  color: white;
+}
+
+#main-content {
+  padding: 20px;
+  color: #555;
+}
+
+.nav > li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav > ul {
+  list-style: none;
+}
+
+.nav > ul > li > a {
+  display: inline;
+}
+
+a[target] {
+  color: red;
+}
+a[target]:hover {
+  color: green;
+}
+#main-content p:first-child {
+  font-size: 1.2em;
+}
+
+#main-content p:last-child {
+  color: blue;
+}
+.k::before {
+  background-color: #d23333;
+}
+.n::first-line {
+  font-size: larger;
+}
+footer {
+  background-color: #ddd;
+  text-align: center;
+}
